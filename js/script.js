@@ -1,5 +1,6 @@
 const btn = document.getElementById('menu-btn')
 const menu = document.getElementById('menu')
+const urlInp = document.getElementById("link-input").value;
 
 const input = document.getElementById('link-input')
 const linkForm = document.getElementById('link-form')
@@ -66,7 +67,17 @@ function renderNewURLinHTML() {
     instHtml.insertAdjacentHTML("beforebegin", newEl);
 }
 
-//to add
+ 
+// url anonymization
 
-// 1. scroll bar 
-// 2. conversion of the url into the short one
+// shortenAnonymizeUrl('https://www.npmjs.com/package/shorten-anonymize-url')
+// .then((url) => {
+//     console.log(url);
+//     // http://bit.ly/2qWTDzM
+// })
+// .catch((err) => {
+//     console.error(err);
+// })
+
+
+//https://www.npmjs.com/package/shorten-anonymize-url
